@@ -8,11 +8,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     
   </head>
   <body>
     <header class="header">
-      <a class="header-name" href="./index.html">WebStudio</a>
+      <a href="./index.html"  class="header-name"><span class="logo-one">Web</span><span class="logo-two">Studio</span></a>
       <nav>
         <ul class="header-list">
           <li class="header-list-item">
@@ -26,12 +27,12 @@
           </li>
         </ul>
       </nav>
-      <ul class="header-list1">
-        <li class="header-list1-item">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="header-number">
+        <li class="header-number-item">
+          <a class="header-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li class="header-list1-item">
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="header-number-item">
+          <a class="header-phone-number" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -42,31 +43,31 @@
         <button>замовити послугу</button>
       </section>
 
-      <section>
-        <ul class="main-list">
-          <li class="main-list-item">
-            <h3>Увага до деталей</h3>
-            <p>
+      <section class="details">
+        <ul class="details-item">
+          <li class="details-list">
+            <h3 class="details-title">Увага до деталей</h3>
+            <p class="details-text">
               Ідейні міркування, і навіть початок повсякденої роботи з
               формування позиції
             </p>
           </li>
-          <li class="main-list-item">
-            <h3>Пунктуальність</h3>
-            <p>
+          <li class="details-list">
+            <h3 class="details-title">Пунктуальність</h3>
+            <p class="details-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе
             </p>
           </li>
-          <li class="main-list-item">
-            <h3>Планування</h3>
-            <p> 
+          <li class="details-list">
+            <h3 class="details-title">Планування</h3>
+            <p class="details-text"> 
               Так само консультація з широким активом значною мірою зумовлює
             </p>
           </li>
-          <li class="main-list-item">
-            <h3>Сучасні технології</h3>
-            <p>
+          <li class="details-list">
+            <h3 class="details-title">Сучасні технології</h3>
+            <p class="details-text">
               Значимість цих пролем настільки очевидна, що реалізація планових
               завдань
             </p>
@@ -76,14 +77,14 @@
       <section>
         <h2>Чим ми займаємось</h2>
 
-        <ul class="main-list1">
-          <li class="main-list1-item">
+        <ul class="group">
+          <li class="group-work">
             <img src="./img/програування.png" alt="Програмування" />
           </li>
-          <li class="main-list1-item">
+          <li class="group-work">
             <img src="./img/дизай.png" alt="Дизайн" />
           </li>
-          <li class="main-list1-item" >
+          <li class="group-work" >
             <img src="./img/рішення.png" alt="Рішення для сайту" />
           </li>
         </ul>
@@ -91,60 +92,60 @@
       <section>
         <h3>Наша команда</h3>
 
-        <ul class="main-list2">
-          <li class="main-list2-item">
-            <figure>
+        <ul class="team">
+          <li class="team-item">
+            <figure class="photos-item">
               <img
                 src="./img/ігордем'яненко.jpeg"
                 alt="Ігор Дем'яненко Product Designer"
                 width="270"
                 height="260"
-/>
-              <figcaption>
-                <h3>Ігор Дем'яненко</h3>
-                <p>Product Designer</p>
+              />
+              <figcaption class="team-info">
+                <h3 class="team-name">Ігор Дем'яненко</h3>
+                <p class="team-text">Product Designer</p>
               </figcaption>
             </figure>
           </li>
-          <li class="main-list2-item">
-            <figure>
+          <li class="team-item">
+            <figure class="photos-item">
               <img
                 src="./img/imgрозока.jpeg"
                 alt="Ольга Рєпіна Frontend Developer"
                 width="270"
                 height="260"
               />
-              <figcaption>
-                <h3>Ольга Рєпіна</h3>
-                <p>Frontend Developer</p>
+              <figcaption class="team-info">
+                <h3 class="team-name">Ольга Рєпіна</h3>
+                <p class="team-text">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
-          <li class="main-list2-item">
-            <figure>
+          <li class="team-item">
+            <figure class="photos-item"> 
               <img
                 src="./img/миколатарасов.jpeg"
                 alt="Микола Тарасов Marketing"
                 width="270"
                 height="260"
               />
-              <figcaption>
-                <h3>Микола Тарасов</h3>
-                <p>Marketing</p>
+              <figcaption class="team-info">
+                <h3 class="team-name">Микола Тарасов</h3>
+                <p class="team-text">Marketing</p>
               </figcaption>
             </figure>
           </li>
-          <li class="main-list2-item">
-            <figure>
+          <li class="team-item">
+            <figure class="photos-item">
               <img
                 src="./img/михайлоєрмаков.jpeg"
                 alt="Михайло Єрмаков UI Designer"
                 width="270"
                 height="260"
               />
-              <figcaption>
-                <h3>Михайло Єрмаков</h3>
-                <p>UI Designer</p>
+              <figcaption class="team-info">
+                <h3 class="team-name">Михайло Єрмаков</h3>
+                <p class="team-text">UI Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -152,17 +153,17 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="footer-name" href="./index.html">WebStudio</a>
+      <a href="./index.html"  class="footer-name"><span>Web</span><span>Studio</span></a>
       <address>
         <ul class="footer-list">
           <li class="footer-list-item">
             <p class="footer-list-item-text">x м. Київ пр-т Лесі Українки 26</p>
           </li>
           <li class="footer-list-item">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a>
           </li>
           <li class="footer-list-item">
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="footer-phone-number">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>

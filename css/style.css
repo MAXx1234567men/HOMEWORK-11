@@ -8,10 +8,16 @@
     }
     .header-name {
         font-family: "raleway";
+        font-size: 25px;
     }
     .footer-name {
         font-family: "raleway";
+        font-size: 25px;
     }
-    .main {
-        font-family: "roboto";
+    body {
+        font-family: "Roboto";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: calc(24 / 14);
+        color: var(--black-color);
     }
